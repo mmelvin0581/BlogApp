@@ -86,3 +86,10 @@ BLOG
 * Add SHOW template
 * Add links to show page
 * Style show template
+
+#Edit/Update
+* Add EDIT route
+* Add EDIT form
+* Add UPDATE route
+* Add UPDATE form
+* Add Method-Override
