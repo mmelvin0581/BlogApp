@@ -24,47 +24,55 @@ BLOG
         <th>Path</th>
         <th>HTTP Verb</th>
         <th>Purpose</th>
+        <th>Mongoose Method</th>
     <tr>
         <td>INDEX</td>
         <td>/dogs</td>
         <td>GET</td>
         <td>List all dogs</td>
+        <td>Dog.find()</td>
     </tr>
     <tr>
         <td>NEW</td>
         <td>/dogs/new</td>
         <td>GET</td>
         <td>Show new dog form</td>
+        <td>n/a</td>
     </tr>
     <tr>
         <td>CREATE</td>
         <td>/dogs</td>
         <td>POST</td>
         <td>Create a new dog, then redirect</td>
+        <td>Dog.create()</td>
     </tr>
     <tr>
         <td>SHOW</td>
         <td>/dogs/:id</td>
         <td>GET</td>
         <td>Show info about one dog</td>
+        <td>Dog.findById()</td>
     </tr>       
     <tr>
         <td>EDIT</td>
         <td>/dogs/:id/edit</td>
         <td>GET</td>
         <td>Show edit form for one dog</td>
+        <td>Dog.findById()</td>
     </tr>
     <tr>
         <td>UPDATE</td>
         <td>/dogs/:id</td>
         <td>PUT</td>
         <td>Update a particular, then redirect</td>
+        <td>Dog.findByIdAndUpdate()</td>
     </tr>
     <tr>
         <td>DESTROY</td>
         <td>/dogs/:id</td>
         <td>DELETE</td>
         <td>Delete a particular dog, then redirect</td>
+        <td>Dog.findByIdAndRemove()</td>
     </tr>
 </table>
 
@@ -98,3 +106,8 @@ BLOG
 * Add UPDATE route
 * Add UPDATE form
 * Add Method-Override
+
+#Final Updates
+* Sanitize blog body
+* Style INDEX
+* Update REST Table
