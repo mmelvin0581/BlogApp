@@ -77,6 +77,12 @@ BLOG
 
 #Putting the C in CRUD
 * Add NEW route
-* Add New template
+* Add NEW template
 * Add CREATE route
-* Add Create template
+* Add CREATE template
+
+#SHOWtime
+* Add SHOW route
+* Add SHOW template
+* Add links to show page
+* Style show template
