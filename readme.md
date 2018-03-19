@@ -20,43 +20,43 @@ BLOG
 
 <table style="width:100%">
     <tr>
-        <td>index</td>
+        <td>INDEX</td>
         <td>/dogs</td>
         <td>GET</td>
         <td>List all dogs</td>
     </tr>
     <tr>
-        <td>new </td>
+        <td>NEW</td>
         <td>/dogs/new</td>
         <td>GET</td>
         <td>Show new dog form</td>
     </tr>
     <tr>
-        <td>create</td>
+        <td>CREATE</td>
         <td>/dogs</td>
         <td>POST</td>
         <td>Create a new dog, then redirect</td>
     </tr>
     <tr>
-        <td>show</td>
+        <td>SHOW</td>
         <td>/dogs/:id</td>
         <td>GET</td>
         <td>Show info about one dog</td>
     </tr>       
     <tr>
-        <td>edit</td>
+        <td>EDIT</td>
         <td>/dogs/:id/edit</td>
         <td>GET</td>
         <td>Show edit form for one dog</td>
     </tr>
     <tr>
-        <td>update</td>
+        <td>UPDATE</td>
         <td>/dogs/:id</td>
         <td>PUT</td>
         <td>Update a particular, then redirect</td>
     </tr>
     <tr>
-        <td>destroy</td>
+        <td>DESTROY</td>
         <td>/dogs/:id</td>
         <td>DELETE</td>
         <td>Delete a particular dog, then redirect</td>
@@ -74,3 +74,9 @@ BLOG
 * Add Header and Footer partials
 * Include SemanticUI
 * Add Simple Nav
+
+#Putting the C in CRUD
+* Add NEW route
+* Add New template
+* Add CREATE route
+* Add Create template
