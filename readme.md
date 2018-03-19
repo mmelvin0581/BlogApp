@@ -18,7 +18,12 @@ BLOG
 
 <h4>Example REST Routes</h4>
 
-<table style="width:100%">
+<table style="width: 100%;">
+    <tr>
+        <th>Name</th>
+        <th>Path</th>
+        <th>HTTP Verb</th>
+        <th>Purpose</th>
     <tr>
         <td>INDEX</td>
         <td>/dogs</td>
